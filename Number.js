@@ -15,7 +15,7 @@ while (usedAttempts < guessNumber) {
         break;
     } else
     if (input != actualNumber) {
-        alert('Guess Again <br>' + 'Tries Left: ' + attemptsLeft)
+        alert('Guess Again,' + 'Tries Left: ' + attemptsLeft);
 
         usedAttempts += 1;
         attemptsLeft -= 1;
@@ -23,6 +23,6 @@ while (usedAttempts < guessNumber) {
 }
 
 if (usedAttempts == guessNumber && input != actualNumber) {
-    document.write('You Have ran out of Attempts: (<br>')
+    document.write('You Have ran out of Attempts:');
     document.write('The Number was', actualNumber);
 }
